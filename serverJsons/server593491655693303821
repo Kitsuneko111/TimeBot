@@ -1,0 +1,77 @@
+{
+  "default server": "play.iskall85.com",
+  "moderators": [
+    "691984993320304671"
+  ],
+  "506855907238346754": {
+    "stickers": null,
+    "oldRoles": [
+      "593491655693303821",
+      "693178858001924178",
+      "620995703979900951"
+    ]
+  },
+  "lastEdited": [
+    "Wicked Enigma",
+    "Unable to connect yada yada",
+    "2020-07-06T09:23:33.886Z",
+    "Unable to connect yada yada yada"
+  ],
+  "lastDeleted": [
+    "Groovy",
+    "",
+    "2020-06-10T03:00:13.279Z"
+  ],
+  "536173031379304467": {
+    "stickers": 1
+  },
+  "476287791374925846": {
+    "stickers": null
+  },
+  "commands": {
+    "help": "Enabled"
+  },
+  "guild": {
+    "members": {},
+    "channels": {},
+    "roles": {},
+    "presences": {},
+    "deleted": false,
+    "available": true,
+    "id": "593491655693303821",
+    "name": "OIO",
+    "icon": null,
+    "splash": null,
+    "region": "europe",
+    "memberCount": 32,
+    "large": false,
+    "features": [],
+    "applicationID": null,
+    "afkTimeout": 300,
+    "afkChannelID": null,
+    "systemChannelID": "593491655693303827",
+    "verificationLevel": 0,
+    "explicitContentFilter": 0,
+    "mfaLevel": 0,
+    "joinedTimestamp": 1585070324586,
+    "defaultMessageNotifications": "MENTIONS",
+    "ownerID": "356826975815598080",
+    "_rawVoiceStates": {},
+    "emojis": {}
+  },
+  "deleted": false,
+  "id": "706888981341667380",
+  "name": "muted",
+  "color": 0,
+  "hoist": false,
+  "position": 1,
+  "permissions": 104187456,
+  "managed": false,
+  "mentionable": false,
+  "muteRole": "706888981341667380",
+  "540393904395124746": {
+    "oldRoles": [
+      "593491655693303821"
+    ]
+  }
+}

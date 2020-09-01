@@ -3,7 +3,7 @@ const client = new Discord.Client({disableEveryone: true})
 const Store = require('data-store')
 
 const { KSoftClient } = require('ksoft.js')
-const ksoft = new KSoftClient('e7eb9508f1426cc4f0b7a23f61fe724213198b51')
+const ksoft = new KSoftClient(process.env.KSOFT)
 /*client.on('message', message => {
   for(const guild in client.guilds){
       const banArray = ksoft.bans.check(guild.members.array()) 

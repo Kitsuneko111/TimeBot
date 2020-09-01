@@ -21,6 +21,6 @@
   },
   "default server": "123:4",
   "commands": {
-    "memez": "Disabled"
+    "memez": "Enabled"
   }
 }

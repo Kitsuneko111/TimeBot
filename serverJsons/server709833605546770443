@@ -1,18 +1,18 @@
 {
   "lastDeleted": [
     "Server Bot",
-    "**Online players (3/30):**\n```\nxooana, Dragon7778, THaT_K1D_ZOMB1E\n```",
-    "2020-07-23T00:29:22.894Z"
+    "**No online players**",
+    "2020-08-11T17:09:32.216Z"
   ],
   "lastEdited": [
-    "InfiniteFalcon",
-    "https://plancke.io/hypixel/player/stats/InfiniteFalcon#BedWars",
-    null,
-    "https://plancke.io/hypixel/player/stats/InfiniteFalcon#BedWars"
+    "DocterXego",
+    "yeah, not sure about that one... the pack is under constant devolpment ;/",
+    "2020-08-11T14:58:44.882Z",
+    "yeah, not sure about that one... the pack is under constant development :/"
   ],
   "default server": "66.11.123.141",
   "commands": {
-    "memez": "Disabled",
+    "memez": "Enabled",
     "superban": "Disabled"
   },
   "moderators": [

@@ -2,8 +2,8 @@ const Discord = require('discord.js')
 const client = new Discord.Client({disableEveryone: true})
 const Store = require('data-store')
 
-const { KSoftClient } = require('ksoft.js')
-const ksoft = new KSoftClient('e7eb9508f1426cc4f0b7a23f61fe724213198b51')
+//const { KSoftClient } = require('ksoft.js')
+//const ksoft = new KSoftClient('e7eb9508f1426cc4f0b7a23f61fe724213198b51')
 /*client.on('message', message => {
   for(const guild in client.guilds){
       const banArray = ksoft.bans.check(guild.members.array()) 
@@ -33,14 +33,15 @@ const retry = require('retry')
 const http = require('http')
 const express = require('express')
 const app = express()
-app.get('/', (request, response)=>{
+const config = require('./config.json')
+/*app.get('/', (request, response)=>{
   response.send("works")
 })
 app.listen(process.env.PORT)
 setInterval(()=>{
   http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`)}, 250000)
-
-const prefix = process.env.PREFIX
+*/
+const prefix = config.prefix
 const fs = require('fs')
 
 client.commands = new Discord.Collection()
@@ -144,6 +145,6 @@ client.on('message', message => {
   message.delete()
 })
 
-client.login(process.env.TOKEN)
+client.login(config.token)
 //console_log
 //test

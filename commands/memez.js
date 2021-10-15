@@ -17,7 +17,7 @@ module.exports = {
     embed.setFooter('powered by KSoft.Si')
     embed.setURL(meme.post.link)
     message.channel.send(embed)
-    //console.log(meme)
+    console.log(meme)
   }
 }
 /* const meme = await ksoft.images.meme()
